@@ -1,0 +1,15 @@
+{
+    "name": "Tools",
+    "version": "1.0.0",
+    "description": "Easy tools",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/tools.json"
+    ],
+    "public": true
+}
