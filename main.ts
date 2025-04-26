@@ -5,8 +5,8 @@ namespace tools {
     */
     //% blockId="areaOfRectangle" block="area of rectangle length %length|width %width"
     //% blockGap=2 weight=0 blockExternalInputs=true
-    export function areaOfRectangle(length: number, width:number): number {
-        return length*width
+    export function areaOfRectangle(X: number, Y:number): number {
+        return X*Y
     }
     /**
     * 計算長方形面積，不回傳，只顯示在LED
