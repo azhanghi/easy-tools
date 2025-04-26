@@ -3,7 +3,7 @@ namespace tools {
     /**
     * 計算X * Y
     */
-    //% blockId="areaOfRectangle" block="計算X * Y   X %X|width %Y"
+    //% blockId="areaOfRectangle" block="計算X * Y   X %X|Y %Y"
     //% blockGap=2 weight=0 blockExternalInputs=true
     export function areaOfRectangle(X: number, Y:number): number {
         return X*Y
