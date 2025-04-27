@@ -1,5 +1,5 @@
 // 在這裡添加你的程式
-//% weight=0 color=#3CB371 icon="\uf2db" block="gigotools" groups='["Motor", "Ultrasound", "RGB LED", "Color Sensor"]'
+//% weight=0 color=#3CB371 icon="\uf2db" block="簡易智高馬達工具"='["Motor"]'
 enum PingUnit {
     //% block="cm"
     Centimeters,
@@ -53,7 +53,7 @@ namespace RoboticsWorkshop {
     D(16,0)
     I2C(20,19)
     */
-    //% blockId=DDMmotor2 block="motor channel %MotorPin|speed (0~100) %MSpeedValue|rotation direction(0~1) %McontrolValue" blockExternalInputs=false
+    //% blockId=DDMmotor2 block="馬達頻道 %MotorPin|速度 (0~100) %MSpeedValue|轉向(0順時針 ,1逆時針) %McontrolValue" blockExternalInputs=false
     //% McontrolValue.min=0 McontrolValue.max=1 
     //% MSpeedValue.min=0 MSpeedValue.max=100   
     //% group="Motor"
@@ -81,7 +81,7 @@ namespace RoboticsWorkshop {
     }
     /**馬達腳位自行宣告
       */
-    //% blockId=DDMmotor block="speed pin %MSpeedPin|speed (0~255) %MSpeedValue|direction pin %McontrolPin|rotation direction(0~1) %McontrolValue" blockExternalInputs=false
+    //% blockId=DDMmotor block="速度pin %MSpeedPin|速度 (0~255) %MSpeedValue|轉向pin %McontrolPin|轉向(0順時針 ,1逆時針) %McontrolValue" blockExternalInputs=false
     //% McontrolValue.min=0 McontrolValue.max=1 
     //% MSpeedValue.min=0 MSpeedValue.max=255   
     //% MSpeedPin.fieldEditor="gridpicker" MSpeedPin.fieldOptions.columns=4
