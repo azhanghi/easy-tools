@@ -1,5 +1,5 @@
 // 在這裡添加你的程式
-//% weight=0 color=#3CB371 icon="\uf2db" block="簡易智高馬達工具"='["Motor"]'
+//% weight=0 color=#3CB371 icon="\uf2db" block="簡易工具"='["Motor"]'
 enum PingUnit {
     //% block="cm"
     Centimeters,
