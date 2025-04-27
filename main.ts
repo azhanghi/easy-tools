@@ -42,7 +42,7 @@ enum RGBLedColors {
 namespace 簡易智高馬達工具 {
 
     ////////////////////////////////
-    //          DDM Motor         //
+    //         easy tools         //
     ////////////////////////////////
 
 
@@ -95,6 +95,13 @@ namespace 簡易智高馬達工具 {
 
     }
 
-    
+    /**
+    * 計算X * Y
+    */
+    //% blockId="areaOfRectangle" block="計算X * Y   X %X|Y %Y"
+    //% blockGap=2 weight=0 blockExternalInputs=true
+    export function areaOfRectangle(X: number, Y:number): void {
+        basic.showNumber(X*Y)
+    }
 
 }
