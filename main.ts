@@ -1,5 +1,5 @@
 // 在這裡添加你的程式
-//% weight=0 color=#3CB371 icon="\uf2db" block="簡易工具"='["Motor"]'
+//% weight=0 color=#3CB371 icon="\uf2db" block="簡易工具"='["Easy tools"]'
 enum PingUnit {
     //% block="cm"
     Centimeters,
@@ -102,6 +102,8 @@ namespace 簡易智高馬達工具 {
     //% blockGap=2 weight=0 blockExternalInputs=true
     export function areaOfRectangle(X: number, Y:number): void {
         basic.showNumber(X*Y)
+        basic.pause(1000)
+        basic.clearScreen()
     }
 
 }
